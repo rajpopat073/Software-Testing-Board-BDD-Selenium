@@ -13,8 +13,8 @@ Feature: Account Creation on SofwareTestingBoard
     And the user should able to see Account information "<FirstName>" "<LastName>" "<Email>"
 
     Examples: 
-      | FirstName | LastName | Email                              | Password    | ConfirmPassword |
-      | John      | Doe213   | ko365hd1n1344WW.do77189e2@test.com | Pas2sword1! | Pas2sword1!     |
+      | FirstName | LastName | Email                                 | Password    | ConfirmPassword |
+      | John      | Doe213   | kodd365hd1nh1344WW.do77189e2@test.com | Pas2sword1! | Pas2sword1!     |
 
   Scenario Outline: Successful Account Creation for special character in name and last name
     Given the user is on the Home page
@@ -41,11 +41,12 @@ Feature: Account Creation on SofwareTestingBoard
     And the user enters "<Password>" as password
     And the user enters "<ConfirmPassword>" as confirm password
     And the user clicks on the Create an Account button
-    Then the error messages "Please enter the same value again." is displayed for the field "<field>" on "Sign Up" page
+    Then the account should be created successfully, and the user is redirected to the Account Page
+    And the user should able to see Account information "<FirstName>" "<LastName>" "<Email>"
 
     Examples: 
-      | FirstName | LastName | Email                   | Password    | ConfirmPassword | field            |
-      | John1     | Doe22    | AAABBBCCCDD@EXAMPLE.COM | Pas2sword1! | Pas2sword1!     | confrim password |
+      | FirstName | LastName | Email                     | Password    | ConfirmPassword | field            |
+      | John1     | Doe22    | AABABSBBCCCDD@EXAMPLE.COM | Pas2sword1! | Pas2sword1!     | confrim password |
 
   Scenario Outline: Leave all input fields empty
     Given the user is on the Home page

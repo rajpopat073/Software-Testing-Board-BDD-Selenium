@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="345229" started-at="2024-07-01T13:00:45Z" finished-at="2024-07-01T13:06:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="345229" started-at="2024-07-01T13:00:45Z" finished-at="2024-07-01T13:06:30Z">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="setUpClass" is-config="true" duration-ms="584" started-at="2024-07-01T13:00:45Z" finished-at="2024-07-01T13:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@250a946]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="16023" started-at="2024-07-01T13:00:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="10173" started-at="2024-07-01T13:01:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid User name or password OR Empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="11335" started-at="2024-07-01T13:01:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid User name or password OR Empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="15588" started-at="2024-07-01T13:01:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid User name or password OR Empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="14827" started-at="2024-07-01T13:01:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:01:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Account Creation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="24535" started-at="2024-07-01T13:01:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Account Creation for special character in name and last name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="24293" started-at="2024-07-01T13:02:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Account Creation for special character in name and last name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="14254" started-at="2024-07-01T13:02:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Account Creation with Capital letter of email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="10972" started-at="2024-07-01T13:02:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Leave all input fields empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="65811" started-at="2024-07-01T13:03:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="19252" started-at="2024-07-01T13:04:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="20409" started-at="2024-07-01T13:04:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="9590" started-at="2024-07-01T13:04:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password & Confirm password mismatch"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="17763" started-at="2024-07-01T13:05:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password check - length, weak"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="11330" started-at="2024-07-01T13:05:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password check - length, weak"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="14234" started-at="2024-07-01T13:05:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:05:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password check - length, weak"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="29106" started-at="2024-07-01T13:05:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:06:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password check - length, weak"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="runScenario" duration-ms="15004" started-at="2024-07-01T13:06:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-01T13:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account already present"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Creation on SofwareTestingBoard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@91161c7]" name="tearDownClass" is-config="true" duration-ms="126" started-at="2024-07-01T13:06:30Z" finished-at="2024-07-01T13:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
