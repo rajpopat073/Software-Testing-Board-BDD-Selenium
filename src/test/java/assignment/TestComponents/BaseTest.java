@@ -46,7 +46,7 @@ public class BaseTest {
 			driver = new ChromeDriver(options);
 			driver.manage().window().setSize(new Dimension(1440, 900));// full screen
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/Users/rahulshetty//documents//geckodriver");
+			System.setProperty("webdriver.gecko.driver", "/Users/raj073//documents//geckodriver");
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			// Edge
